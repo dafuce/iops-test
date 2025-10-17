@@ -1,0 +1,15 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# But keep publish outputs explicitly copied to releases/
+!releases/**
+
+# Optional: ignore Visual Studio / VS Code metadata
+.vs/
+.vscode/
+
+# Logs, temporary files
+*.log
+*.tmp
+*.temp
